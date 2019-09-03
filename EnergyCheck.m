@@ -1,4 +1,5 @@
 clear all
+%% editing for pull
 %% calculate energy distribution and predict groove size
 p = 7.5; %energy in uj
 omega = 8.5; %beam radius
