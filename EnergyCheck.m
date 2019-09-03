@@ -1,9 +1,9 @@
 clear all
 %% calculate energy distribution and predict groove size
 p = 7.5; %energy in uj
-omega = 8; %beam radius
+omega = 8.5; %beam radius
 r = 0.523; %reflectivity
-alpha = 2.3; %absorptivity
+alpha = 2; %absorptivity
 pi = 3.1415926;
 energyY = 2*p/pi/omega^2*(1-r)*alpha*exp(-alpha*0.3);
 energyX =  2*p/pi/(omega^2)*(1-r)*alpha*exp(-2*(4.5^2)/(omega^2));
@@ -43,6 +43,8 @@ end
 figure(1);
 plot(x,depth);
 axis([0 10 -0.5 0]);
+
+% %{
 for t = 1:pulse
     for i=1:size(x,2)
         xtemp =abs( x(i)-(speed*duration*t));
@@ -57,7 +59,7 @@ end
 figure(2);
 plot(x,depth);
 axis([0 10 -10 0]);
-            
+%  %}          
 
 % briefly check the timstep requirement;
 % this calculate the laser source for the mesh element at the very center of the beam, which has the highst fluence at its quadrature point 
