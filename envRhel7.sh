@@ -1,0 +1,15 @@
+module load  gcc/7.3.0-bt47fwr
+module load  mpich/3.3-diz4f6i
+module load  cmake/3.14.1-hd7d4ku
+module load  openblas/0.3.5-7miavkp
+module load  boost/1.69.0-sdetzl5
+module load  zlib/1.2.11-ypve67o
+module load  xz/system-bm7llce
+module load metis/5.1.0-int64-f4iq3jt
+module load libxml2/2.9.8-hcsmz5f
+module load libpciaccess/0.13.5-gcqhf4k
+module load libiconv/1.15-hwi4p6x
+module load parmetis/4.0.3-int64-xhy4lk6
+module load hdf5/1.10.5-fzrgrkh
+module load netcdf/4.6.3-n6uagsd
+module load netlib-lapack
