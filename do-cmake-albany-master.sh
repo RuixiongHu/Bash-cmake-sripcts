@@ -21,7 +21,7 @@ export ALB_ENABLE_CHECK_FPE=OFF
 export ALB_ENABLE_SPECULATIVE=OFF
 export ALB_ENABLE_SG_MP=OFF
 export ALB_ENABLE_PERF_TESTS=ON
-export TRILINOS_INSTALL_DIR=/space/Trilinos/install
+export TRILINOS_INSTALL_DIR=/lore/hur3/Trilinos/install
 export ALB_LAME_INC_DIR=/projects/albany/src/lame-4.24.1/include
 export ALB_LAME_LIB_DIR=/projects/albany/src/lame-4.24.1/build
 #export ALB_CXX_FLAGS="-ftemplate-depth=1024"
